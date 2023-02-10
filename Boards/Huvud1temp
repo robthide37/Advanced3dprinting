@@ -1,0 +1,7 @@
+[temperature_sensor ToolBoard1]
+sensor_type: stm32f1_mcu  # Select appropriate mcu sensor type
+sensor_pin: head0:ADC_TEMPERATURE
+adc_voltage: 3.3
+gcode_id: E1
+min_temp: -50
+max_temp: 120
