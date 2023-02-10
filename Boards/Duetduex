@@ -1,0 +1,6 @@
+
+[static_digital_output onboard_led]
+pins = !PC2
+
+[sx1509 duex]
+i2c_address = 62
