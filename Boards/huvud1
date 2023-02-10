@@ -2,4 +2,4 @@
 mcu: head0
 aliases:
   estep=head0:PB3 , edir=!head0:PB4 , een=!head0:PB5 , fan=head0:PA7 , temp=head0:PA0
-  servo=head0:PA14 , probe=^head0:PB12 , eheat=head0:PA6   
+  servo=head0:PA14 , probe=^head0:PB12 , eheat=head0:PA6 , euart=head0:PA10 , etx=head0:PA9  
