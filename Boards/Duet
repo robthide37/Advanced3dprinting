@@ -2,4 +2,4 @@
 aliases:
   estep=PD5, edir=PA1, een=PC6, fan=PC23, etemp=PC15,
   servo=PA15, probe=PC1, eheat=PA20, spi=usart1, ecs=PC17,
-  hfan=PC26
+  hfan=PC26, bedheat=PC13
