@@ -1,0 +1,5 @@
+[board_pins head0]
+mcu: head0
+aliases:
+  estep=head0:PB3 , edir=!head0:PB4 , een=!head0:PB5 , fan=head0:PA7 , temp=head0:PA0
+  servo=head0:PA14 , probe=^head0:PB12    
