@@ -4,3 +4,11 @@ pins = !PC2
 
 [sx1509 duex]
 i2c_address = 62
+
+[board_pins duet]
+mcu: mcu
+#   A comma separated list of micro-controllers that may use the
+#   aliases. The default is to apply the aliases to the main "mcu".
+aliases:
+  estep=PD5 , edir=PA1 , een=!PC6 , fan=PC26 , temp=PC15
+  servo=!PA15 , probe=^PC1  
