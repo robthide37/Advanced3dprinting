@@ -1,5 +1,5 @@
 [fan]
-pin: fan
+pin: head0:fan
 off_below:.1
 cycle_time:.008
 #hardware_pwm: True
