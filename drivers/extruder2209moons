@@ -1,0 +1,10 @@
+[tmc2209 extruder]
+uart_pin: euart
+tx_pin: etx
+interpolate: False
+run_current: 0.61
+sense_resistor: 0.110
+stealthchop_threshold: 0
+driver_HEND: 3
+driver_HSTRT: 2
+driver_TOFF: 3
