@@ -1,6 +1,6 @@
 [bltouch]
-sensor_pin:^probe  
-control_pin:servo
+sensor_pin:^head0:probe  
+control_pin:head0:servo
 pin_move_time: 0.3
 stow_on_each_sample: False
 #   This determines if Klipper should command the pin to move up
