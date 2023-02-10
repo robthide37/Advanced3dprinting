@@ -14,7 +14,7 @@ min_temp: -50
 max_temp: 120
 
 [heater_fan hotend]
-pin: hfan
+pin: head0:hfan
 heater: extruder
 heater_temp: 45
 fan_speed: 1
