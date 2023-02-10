@@ -1,0 +1,15 @@
+[bltouch]
+sensor_pin:^probe  
+control_pin:servo
+pin_move_time: 0.3
+stow_on_each_sample: False
+#   This determines if Klipper should command the pin to move up
+#   between each probe attempt when performing a multiple probe
+#   sequence. Read the directions in docs/BLTouch.md before setting
+#   this to False. The default is True.
+probe_with_touch_mode: False
+#set_output_mode:5V
+x_offset:25
+y_offset:0
+speed: 14
+lift_speed: 14
