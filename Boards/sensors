@@ -1,0 +1,18 @@
+[adc_temperature stm32f1_mcu]  # Also valid for stm32f0 mcus
+temperature1: 25
+voltage1: 1.430
+temperature2: 125
+voltage2: 1.000 # voltage1 - 100 * .004300
+
+[thermistor dyze500]
+temperature1 : 25
+resistance1 : 4500000
+temperature2 : 200
+resistance2 : 8070
+temperature3 : 400
+resistance3 : 253
+[verify_heater extruder]
+max_error: 180
+#check_gain_time:
+hysteresis: 6
+#heating_gain: 2
