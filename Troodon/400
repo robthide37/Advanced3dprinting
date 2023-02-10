@@ -148,25 +148,7 @@ pid_kp = 71.022
 pid_ki = 2.172
 pid_kd = 580.607
 
-[extruder]
-step_pin: estep
-dir_pin: !edir
-enable_pin: !een
-heater_pin: eheat
-rotation_distance: 22.67895 #for 5mm Shaft Driven Bondtech gearsets
-gear_ratio: 50:10
-microsteps: 64
-nozzle_diameter: 0.800 # is only a limit leave at teh largest size nozzle you use 
-filament_diameter: 1.750
-sensor_type: PT1000
-sensor_pin: head0:PA0 # "THERMISTOR"
-pullup_resistor: 2200 # The board uses a 2.2k ohm pullup to work with a PT1000 
-smooth_time: .5
-min_temp: -20
-max_temp: 450
-max_extrude_only_distance: 151.0
-pressure_advance : .034
-pressure_advance_smooth_time: .02
+
 
 
 
