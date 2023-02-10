@@ -1,0 +1,26 @@
+[extruder_stepper tandem]
+
+extruder: extruder
+#   The extruder this stepper is synchronized to. If this is set to an
+#   empty string then the stepper will not be synchronized to an
+#   extruder. The default is "extruder".
+step_pin: PD5
+dir_pin: PA1 #remove ! to reverse direction
+enable_pin: !PC6
+
+
+rotation_distance: 22.67895 #for 5mm Shaft Driven Bondtech gearsets
+gear_ratio: 50:10
+microsteps: 64
+[tmc2660 extruder_stepper tandem]
+cs_pin: PC17
+spi_bus: usart1
+interpolate: False
+run_current: .61
+idle_current_percent: 30
+sense_resistor: 0.051
+driver_TBL: 2
+driver_HDEC: 1
+driver_HEND: 3
+driver_HSTRT: 5
+driver_TOFF: 6
