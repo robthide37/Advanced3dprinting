@@ -1,0 +1,10 @@
+[tmc2660 extruder]
+cs_pin: PC17
+spi_bus: usart1
+interpolate: False
+sense_resistor: 0.051
+run_current: 0.61
+driver_TBL: 1
+driver_HEND: 3
+driver_HSTRT: 7
+driver_TOFF: 4
