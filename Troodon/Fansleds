@@ -1,5 +1,5 @@
 [heater_fan hotend]
-pin: PC26
+pin: hfan
 heater: extruder
 heater_temp: 45
 fan_speed: 1
